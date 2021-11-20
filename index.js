@@ -21,11 +21,11 @@ aws.config.update({
 })
 
 const s3 = new aws.S3()
-
+const pathS3 = 'testing' // path location or object s3 bucket
 const upload = multer({
   storage: multerS3({
     s3: s3,
-    bucket: process.env.AWSBucket,
+    bucket: `${process.env.AWSBucket}/${pathS3}`,
     acl: 'public-read',
     contentType: multerS3.AUTO_CONTENT_TYPE,
     metadata: (req, file, cb) => {
