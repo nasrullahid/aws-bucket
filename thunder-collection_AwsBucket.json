@@ -1,0 +1,40 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "AwsBucket",
+  "dateExported": "2021-11-20T07:11:54.627Z",
+  "version": "1.1",
+  "folders": [],
+  "requests": [
+    {
+      "containerId": "",
+      "sortNum": 20000,
+      "headers": [
+        { "name": "Accept", "value": "*/*" },
+        {
+          "name": "User-Agent",
+          "value": "Thunder Client (https://www.thunderclient.io)"
+        }
+      ],
+      "colId": "4ee447c1-5ed6-4b6b-969d-d8b84d8ecea8",
+      "name": "aws-bucket",
+      "url": "http://localhost:4000/",
+      "method": "POST",
+      "modified": "2021-11-20T07:11:40.263Z",
+      "created": "2021-11-20T06:43:05.546Z",
+      "_id": "0bfa0579-b67f-4248-99dc-098912c4b51c",
+      "params": [],
+      "body": {
+        "type": "formdata",
+        "raw": "",
+        "form": [],
+        "files": [
+          {
+            "name": "photo",
+            "value": "/Users/nasrullahid/Downloads/sample.jpg"
+          }
+        ]
+      },
+      "tests": []
+    }
+  ]
+}
